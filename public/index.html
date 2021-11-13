@@ -2,22 +2,28 @@
 <html lang="en">
 <head>
     <title>Hamburgestugan Sollentuna</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8"/>
 </head>
 <body>
     <header>
-       <h1>Välkommen till BurgerOnline</h1>
+        <img src="https://static.thatsup.co/content/img/place/t/u/tugg-burgers-uppsala-0.jpg">
+        <h1>Välkommen till BurgerOnline</h1>
     </header>
 <main>
-    <section>
+    <section id="Burgersection">
         <h2>select burger</h2>
         <p> click your desired burger </p>
+
+     <div class="wrapper">
+
         <div style="float:left">
         <h2>Burgir</h2>
         <img src="https://i.ytimg.com/vi/grZI4digmm0/sddefault.jpg" style="width: 200px;height:200px">
         <ul>
             <li>Burgir</li>
-            <li>En helt vanlig burgare, innehåller gluten</li>
+            <li>Friscobröd, innehåller <span class ="allergener">gluten</span></li>
+            <li>Cheddarost, innehåller <span class ="allergener">laktos</span></li>
         </ul>
         </div>
 
@@ -26,27 +32,31 @@
         <img src="https://thumb.mp-farm.com/7197109/preview.jpg" style="width: 200px;height:200px">
             <ul>
                 <li>Kött</li>
-                <li>Bröd, innehåller gluten</li>
+                <li>Briochebröd, innehåller <span class ="allergener">gluten</span></li>
+                <li>Cheddarost, innehåller <span class ="allergener">laktos</span></li>
+                <li>Chili-mayo, innehåller <span class ="allergener">laktos</span></li>
             </ul>
         </div>
 
-        <div style="float:left">
+        <div>
             <h2>Mini</h2>
             <img src="https://imageresizer.static9.net.au/1cEo1pjkilCsUSERF8TzeJUfL6Y=/1200x628/smart/https%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2F2017%2F09%2F18%2F11%2F06%2FJimmy-Hurlstons-mini-burger-with-mac-and-cheese.jpg" style="width: 200px; height:200px">
             <ul>
                 <li>Mini</li>
-                <li>Liten  barnburgare, innehåller gluten</li>
+                <li>Vitt bröd, innehåller <span class ="allergener">gluten</span></li>
+                <li>Ketchup</li>
+                <li>Hushållsost, innehåller <span class ="allergener">laktos</span></li>
             </ul>
         </div>
 
+     </div>
+
     </section>
 
-    <section style="clear:left">
+    <section id="contact" style="clear:left">
         <h2>Costumer info</h2>
         <p> this is where you enter info about you </p>
-    </section>
 
-    <section id="contact">
         <h2>Delivery info</h2>
         <form>
         <p>

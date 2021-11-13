@@ -1,1 +1,64 @@
-/*empty*/
+/*såhär skriver man en kommentar*/
+
+
+header {
+    margin: 5px 10px;
+    height: 500px;
+    overflow:hidden
+}
+
+header h1 {
+    position: absolute;
+    padding: 20px;
+    margin-top: -800px;
+}
+
+header img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 14pt;
+}
+.allergener {
+    font-weight: bold;
+}
+
+section div {
+    padding: 20px;
+    margin: 30px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+#Burgersection {
+    background-color:black;
+    color: white;
+    margin: 10px 10px;
+    border: 2px dashed #ffffff;
+}
+
+#contact {
+    margin: 50px 10px;
+    border: 2px dashed #050505;
+}
+
+button:hover {
+    color: green;
+}
+
+a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
+    cursor: pointer;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 400px 400px 400px;
+}

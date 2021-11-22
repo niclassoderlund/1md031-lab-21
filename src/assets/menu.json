@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Burgir",
+    "calories": 500,
+    "lactose": true,
+    "gluten": true,
+    "image": "https://i.ytimg.com/vi/grZI4digmm0/sddefault.jpg"
+  },
+
+  {
+    "name": "Bomben",
+    "calories": 700,
+    "lactose": true,
+    "gluten": true,
+    "image": "https://thumb.mp-farm.com/7197109/preview.jpg"
+  },
+
+  {
+    "name": "Mini",
+    "calories": 350,
+    "lactose": true,
+    "gluten": true,
+    "image": "https://imageresizer.static9.net.au/1cEo1pjkilCsUSERF8TzeJUfL6Y=/1200x628/smart/https%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2F2017%2F09%2F18%2F11%2F06%2FJimmy-Hurlstons-mini-burger-with-mac-and-cheese.jpg"
+  }
+]
